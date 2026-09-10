@@ -8,9 +8,11 @@ class Hero:
     def __init__(self, name, hp):
         self.name = name
         self.hp = hp
+        pass
 
     def take_damage(self, amount):
         self.hp -= amount
+        pass
 
 
 # ------------------------------------------------------------
